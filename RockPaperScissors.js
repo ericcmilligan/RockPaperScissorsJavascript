@@ -1,8 +1,3 @@
-// console.log("Hello Javascript")
-// let one = 1
-// let two = 6
-// added2 = one + two
-// console.log(added2)
 
 let user_choice = window.prompt("Enter your choice: Rock or Paper or Scissors as the first letter");
 
