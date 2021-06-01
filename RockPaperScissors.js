@@ -41,6 +41,7 @@ console.log("You chose: " + user_choice + "\nComputer chose: " + computer_choice
 
 if (user_choice === computer_choice_text) {
   console.log("Both players selected: " + user_choice + " It's a tie");
+  throw new Error("Ends in draw");
 }
 if(user_choice === "Rock"){
   if (computer_choice_text == "Scissors") {
